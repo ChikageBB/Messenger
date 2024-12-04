@@ -50,8 +50,7 @@ public class User {
     }
 
     public String toString() {
-        String info = "Имя пользователя: " + name + " под ником " + nickname + " Номер: " + number;
-        return info;
+        return "Имя пользователя: " + name + " под ником " + nickname + " Номер: " + number;
     }
 
 }
