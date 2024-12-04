@@ -49,4 +49,9 @@ public class User {
         return name;
     }
 
+    public String toString() {
+        String info = "Имя пользоветаля: " + name + " под ником " + nickname + " Номер: " + number;
+        return info;
+    }
+
 }
