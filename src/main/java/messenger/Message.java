@@ -58,6 +58,6 @@ public class Message {
     }
     @Override
     public String toString() {
-        return dateAndTime + " | " + "кем: " + sender + " | " + "кому: " + recipient + " | " + "сообщение: " + textOfMessage;
+        return dateAndTime + " | " + "кем: " + sender.getNickname() + " | " + "кому: " + recipient.getNickname() + " | " + "сообщение: " + textOfMessage;
     }
 }
