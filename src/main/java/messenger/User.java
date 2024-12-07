@@ -49,4 +49,9 @@ public class User {
         return name;
     }
 
+    @Override
+    public String toString() {
+        return "Имя пользователя: " + name + " под ником " + nickname + " Номер: " + number;
+    }
+
 }
